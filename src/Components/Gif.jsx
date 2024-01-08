@@ -5,7 +5,7 @@ export default function Gif() {
   return (
     <div  >
       <img src={tarcin} style={{
-        width: '100vw',  margin: 0, padding: 0 }} />
+        width: '100%',  margin: 0, padding: 0 }} />
     </div>
   )
 }

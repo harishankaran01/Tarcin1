@@ -19,7 +19,10 @@ body {
 }
 
 /* Nav.css */
-.navbar ul {
+.navbars{
+  overflow-x: hidden;
+}
+.navbars ul {
   width: 100vw;
   display: flex;
   gap: 40px;
@@ -27,22 +30,22 @@ body {
   background-color: #000000;
 }
 
-.navbar ul li {
+.navbars ul li {
   list-style-type: none;
 
 }
 
-.navbar ul li .act {
+.navbars ul li .act {
   color: #fff;
 }
 
-.navbar ul li a {
+.navbars ul li a {
   text-decoration: none;
   color: #AAAAAA;
   font-size: 1.5rem
 }
 
-.navbar ul li a:hover {
+.navbars ul li a:hover {
   color: #fff;
 }
 
@@ -102,6 +105,7 @@ body {
 
 /* print.css */
 .print {
+  box-sizing: border-box;
   margin: 2rem 6rem;
   display: flex;
   gap: 50px;
@@ -240,6 +244,7 @@ span {
 /* End of offer.css */
 /* Courses.css */
 .print {
+  box-sizing: border-box;
   margin: 2rem 6rem;
   display: flex;
   gap: 50px;
@@ -379,7 +384,7 @@ span {
     margin: 1.5rem 1.3rem;
   }
 
-  .navbar {
+  .navbars {
     display: none;
   }
 
@@ -396,6 +401,7 @@ span {
 /* End of Courses.css */
 /* Services.css */
 .Services {
+  box-sizing: border-box;
   padding: 2rem 4rem;
 }
 
@@ -463,6 +469,7 @@ span {
 /* End of Services.css */
 /* code.css */
 .code {
+  box-sizing: border-box;
   padding: 2rem 4rem;
 }
 
@@ -611,7 +618,7 @@ span {
     margin: 1.5rem 1.3rem;
   }
 
-  .navbar {
+  .navbars {
     display: none;
   }
 
@@ -648,3 +655,154 @@ span {
     transform: scale(1);
   }
 }
+/* contact.css */
+ .Land{
+ background-image: url(/src/images/web_editor_Bold_04.svg);
+ background-repeat: no-repeat;
+ background-size: cover;
+  box-sizing: border-box;
+  display: flex;
+  padding: 3rem 6rem 1rem;
+ 
+}
+
+.landcontant{
+  width: 100%;
+  padding: 2.6rem;
+}
+.landcontant h2{
+  font-size: 2.8rem;
+  font-style: oblique;
+  font-family: sans-serif;
+  margin: 1rem auto;
+word-spacing: 0.3rem;
+color: #1f1147;
+font-weight: bolder;
+
+}
+.landcontant h4{
+  font-style: oblique;
+  font-size: 1.5rem;
+  margin: 1rem auto;
+  padding: 0.2rem;
+  line-height: 3rem;
+  word-spacing: 0.3rem;
+}
+.landim{
+  width: 100%;
+padding: 2rem 4rem 2rem 10rem;
+}
+.landim img{
+  width: 500px;
+  
+  
+}
+
+@media(max-width:1070px){
+  .Land{
+    flex-direction: column;
+      padding: 3rem;
+  }
+    .landcontant {
+      width: 100%;
+      padding: 2rem;
+    }
+  .landim {
+    width: 100%;
+    padding: 2rem ;
+  }
+  .landim img {
+    width: 100%;
+    
+    }
+}
+@media(max-width:600px){
+  .Land {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  .landcontant {
+      width: 100%;
+      padding: 1rem;
+    }
+        .landim {
+          width: 100%;
+          padding: 1rem;
+        }
+.landcontant h2{
+  font-size: 2rem;
+}
+.landcontant h4{
+  line-height: 2rem;
+  font-size: 0.8rem;
+}
+}
+/*End of contact.css */
+/* Container.css */
+.landcontainer{
+ padding: 1rem 4rem;
+ display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+ row-gap: 30px;
+}
+.landcontainer .courseslink:hover  {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: 0.5s;
+}
+.landcontainer .courseslink  {
+  width: 30%;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 10px solid #eaecef;
+}
+.landcontainer .courseslink a img{
+  width: 100%;
+}
+.landcontainer .courseslink a {
+  color: #25292e;
+  text-decoration: none;
+}
+.landcontainer .courseslink a h1{
+  text-align: center;
+    margin: 1rem auto;
+}
+.landcontainer .courseslink a button {
+ background-color: transparent;
+ border: none;
+ outline: none;
+}
+.btncon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media(max-width:1000px){
+  .landcontainer{
+    padding: 3rem;
+    flex-direction: column;
+    gap: 20px;
+  }
+    .landcontainer .courseslink {
+      width: 100%;
+      padding: 1rem 2rem;
+      
+    }
+}
+@media(max-width:600px){
+  .landcontainer {
+      padding: 1rem;
+      flex-direction: column;
+    }
+         .landcontainer .courseslink {
+           width: 100%;
+           padding: 1rem;
+    
+         }
+}
+
+
+/* End of Container.css */

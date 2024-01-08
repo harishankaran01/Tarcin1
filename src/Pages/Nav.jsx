@@ -10,7 +10,7 @@ export default function Nav() {
  console.log(toggle)
   return (
     <div >
-      <div className='navbar'>
+      <div className='navbars'>
         <ul className=' sec_pading'>
          <li><NavLink className={({ isActive }) => isActive ? "act" : null} to=".">Home</NavLink></li>
          <li><NavLink className={({ isActive }) => isActive ? "act" : null} to="courses">Courses</NavLink></li>

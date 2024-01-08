@@ -8,7 +8,7 @@ import Industrial from "../images/Industrial.jpg";
 
 export default function Services() {
   return (
-      <div className='Services'>
+      <div className='Services' style={{overflowX:"hidden"}}>
           <h1 data-aos="fade-right">Our <span>Services</span></h1>
           <h5>Skill line is one powerful online software suite that combines all the tools needed to run a successful school or office.</h5>
           <div className='three' >
