@@ -1,7 +1,6 @@
 import React from 'react';
 import printi from '../images/integrations.png';
 import "../index.css";
-// import "D:/React Projects/Tracinnew/src/index.css"
 import { Link } from 'react-router-dom';
 
 export default function Courses() {

@@ -7,7 +7,6 @@ import Footer from '../Components/Footer';
 
 export default function Nav() {
  let [toggle,setToggle]=React.useState(false);
- console.log(toggle)
   return (
     <div >
       <div className='navbars'>

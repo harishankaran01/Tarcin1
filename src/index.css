@@ -7,6 +7,9 @@
 
 body {
   background-color: #fdfcfc;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
 
 }
 
@@ -50,6 +53,7 @@ body {
 }
 
 .navbtn {
+  z-index: 1;
   background-color: #000000;
 }
 
@@ -806,3 +810,42 @@ padding: 2rem 4rem 2rem 10rem;
 
 
 /* End of Container.css */
+/* contact.css */
+.contact{
+  padding: 3rem 6rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+form .inp{
+  text-align: justify;
+padding: 1rem;
+}
+
+form label{
+  margin: auto 2rem;
+}
+
+.contact .contimg img{
+  width: 450px;
+}
+.contact form{
+  padding: 3rem 1rem;
+}
+@media(max-width:1300px){
+  .contact .contimg img {
+      width: 400px;
+    }
+}
+@media(max-width:1000px){
+  .contact {
+      padding: 2rem 4rem;
+      flex-direction: column;
+    }
+    .contact .contimg img {
+      width: 50%;
+    }
+}
+
+
+
+/* End of contact.css */
