@@ -1,5 +1,5 @@
 import React from 'react'
-import pic from "D:/Tarcinweb/Tracinnew/src/images/father-sons-making-robot.jpg";
+import pic from "/src/images/father-sons-making-robot.jpg";
 import "./About.css"
 export default function Aland() {
   return (

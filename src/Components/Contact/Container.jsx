@@ -1,13 +1,13 @@
 import React from 'react';
 import { TiArrowRightThick } from "react-icons/ti";
 import { Link } from 'react-router-dom';
-import full from "D:/Tarcinweb/Tracinnew/src/images/full.jpg"
-import app from "D:/Tarcinweb/Tracinnew/src/images/APP.jpg";
-import cloud1 from "D:/Tarcinweb/Tracinnew/src/images/Cloud Computing.jpg";
-import code from "D:/Tarcinweb/Tracinnew/src/images/codecourses.jpg";
-import pcb from "D:/Tarcinweb/Tracinnew/src/images/PCB.png";
-import robot from "D:/Tarcinweb/Tracinnew/src/images/Robotics.jpg"
-import "D:/Tarcinweb/Tracinnew/src/index.css";
+import full from "/src/images/full.jpg"
+import app from "/src/images/APP.jpg";
+import cloud1 from "/src/images/Cloud Computing.jpg";
+import code from "/src/images/codecourses.jpg";
+import pcb from "/src/images/PCB.png";
+import robot from "/src/images/Robotics.jpg"
+import "/src/index.css";
 
 export default function Container() {
   return (

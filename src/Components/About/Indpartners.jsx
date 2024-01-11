@@ -1,6 +1,6 @@
 import React from 'react';
-import nexon from "D:/Tarcinweb/Tracinnew/src/images/Nexon.png";
-import d3 from "D:/Tarcinweb/Tracinnew/src/images/3D-Crafts-W.png";
+import nexon from "/src/images/Nexon.png";
+import d3 from "/src/images/3D-Crafts-W.png";
 import "./About.css"
 
 export default function Indpartners() {

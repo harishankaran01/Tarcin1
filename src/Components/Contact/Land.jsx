@@ -1,6 +1,6 @@
 import React from 'react';
-import student from "D:/Tarcinweb/Tracinnew/src/images/student.png";
-import "D:/Tarcinweb/Tracinnew/src/index.css"
+import student from "/src/images/student.png";
+import "/src/index.css"
 
 export default function Land() {
   return (

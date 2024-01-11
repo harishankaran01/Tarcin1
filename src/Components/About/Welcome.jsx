@@ -1,5 +1,5 @@
 import React from 'react';
-import robo from "D:/Tarcinweb/Tracinnew/src/images/robot (1).png";
+import robo from "/src/images/robot (1).png";
 import "./About.css";
 
 export default function Welcome() {
