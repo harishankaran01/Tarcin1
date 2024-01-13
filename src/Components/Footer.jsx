@@ -16,7 +16,7 @@ export default function Footer() {
                   <a href='https://www.instagram.com/tarcin_robotics.in/' style={{ textDecoration: 'none' }}> <FaInstagram color='#702042' size={40} spacing={"12px"} style={{ margin: "5px auto", gap: '10px' }} /></a>
                   <a href='https://www.linkedin.com/company/tarcin-robotic-llp/' style={{ textDecoration: 'none' }}> <FaLinkedin color='#3273af' size={40} spacing={"12px"} style={{ margin: "5px auto", gap: '10px' }} /></a>
                   <a style={{ textDecoration: 'none' }}> <FaFacebook color='#3976ea' size={40} spacing={"12px"} style={{ margin: "5px auto", gap: '10px' }} /></a><br/>
-              <Link to="contact-us"><button>Contact Us</button></Link>
+              <Link to="contact-us" ><button>Contact Us</button></Link>
          </div >
           <div className='cont cont2' >
                   <h5>Tarcin Robotics LLP,</h5>

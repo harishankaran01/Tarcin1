@@ -23,9 +23,9 @@ export default function Nav() {
    
           {toggle && 
             <ul className='navmob scale-up-center'>
-            <li><NavLink className={({ isActive }) => isActive ? "act" : null} to=".">Home</NavLink></li>
-            <li><NavLink className={({ isActive }) => isActive ? "act" : null} to="courses">Courses</NavLink></li>
-              <li> <NavLink className={({ isActive }) => isActive ? "act" : null} to="about">About Us</NavLink></li></ul>
+            <li><NavLink onClick={() => setToggle(prev => !prev)} className={({ isActive }) => isActive ? "act" : null} to=".">Home</NavLink></li>
+            <li><NavLink onClick={() => setToggle(prev => !prev)} className={({ isActive }) => isActive ? "act" : null} to="courses">Courses</NavLink></li>
+            <li> <NavLink onClick={() => setToggle(prev => !prev)} className={({ isActive }) => isActive ? "act" : null} to="about">About Us</NavLink></li></ul>
           }
         </div>
    
