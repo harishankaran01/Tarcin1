@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: poppins, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body {
@@ -849,3 +849,146 @@ form label{
 
 
 /* End of contact.css */
+/* Enroll.css */
+.enroll{
+  padding: 4rem 5rem;
+}
+.enroll .encontent h1{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.encontent{
+  padding: 20px;
+  
+}
+.encontent button{
+  margin: 20px auto;
+  padding: 10px 20px;
+  outline: none;
+border: none;
+font-size: 1rem;
+font-weight: 700;
+border-radius: 50px;
+background-color: #303032;
+color:#fff;
+}
+.encontent button a{
+  color: #fff;
+  text-decoration: none;
+}
+.encontent button a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+.sho{
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  margin: 10px auto;
+}
+.enimagecontent{
+  padding: 10px auto;
+}
+.enimagecontent p{
+  text-align: justify;
+  margin-top: 10px;
+}
+.coursecontent{
+  margin: 20px auto;
+}
+.coursecontent p {
+  margin: 20px auto;
+  text-align: justify;
+}
+.sho h3{
+  font-size: 20px;
+}
+.enroll .coursehead
+{
+  display: flex;
+  margin: 30px auto;
+  gap: 20px;
+}
+.enroll .coursehead .enimage{
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+.learnnn{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 0px;
+}
+.learnnn li{
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.ll_learn h1{
+  margin: 10px auto;
+}
+.ll_learn{
+  margin: 10px auto;
+}
+.enroll .coursehead .enimage img{
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+
+}
+@media(max-width:1300px) {
+  .enroll .coursehead .enimage {
+      width: 600px;
+     }
+        
+}
+@media(max-width:1200px) {
+  .enroll .coursehead .enimage {
+      width: 550px;
+     }
+}
+@media(max-width:1150px) {
+  .enroll .coursehead .enimage {
+      width: 450px;
+     }
+}
+@media(max-width:1050px){
+  .enroll {
+      padding: 4rem;
+    }
+    .encontent {
+      padding: 0;
+  
+    }
+  .enroll .coursehead .enimage {
+     width: 100%;
+    
+  }
+  .enroll .coursehead{
+    flex-direction: column;
+  }
+}
+@media(max-width:600px){
+  .enroll {
+      padding: 2rem;
+    }
+    .enroll .encontent h1 {
+      font-size: 1.8rem;
+    
+    }
+        .sho h3 {
+          font-size: 15px;
+        }
+
+  }
+@media(max-width:400px){
+  .enroll {
+      padding: 1.5rem;
+    }
+  
+}
+/*End of Enroll.css */
