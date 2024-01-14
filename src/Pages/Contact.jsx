@@ -12,7 +12,7 @@ export default function Contact() {
   
         <form>
         <div className="inp">
-          <label class="row">Your Name*</label>
+          <label >Your Name*</label>
           <input type='text' class="column" required/>
         </div>
         <div className="inp">
@@ -31,7 +31,8 @@ export default function Contact() {
           <label>Your Question*</label>
           <textarea required></textarea>
         </div>
-        <input type='button'/>
+        <div className='contbtn'>        <button>Submit</button></div>
+
         </form>
 
       </div>

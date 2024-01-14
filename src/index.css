@@ -812,17 +812,47 @@ padding: 2rem 4rem 2rem 10rem;
 /* End of Container.css */
 /* contact.css */
 .contact{
-  padding: 3rem 6rem;
+  padding: 3rem 4rem;
   display: flex;
   justify-content: space-evenly;
 }
-form .inp{
-  text-align: justify;
-padding: 1rem;
+.contimg{
+  display: flex;
+  font-style: oblique;
+  font-weight: 700;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
-
-form label{
-  margin: auto 2rem;
+.contbtn{
+  display: flex;
+  margin: 30px auto;
+  justify-content: center;
+}
+form .contbtn button{
+  padding: 10px 20px;
+  border: none;
+  background-color: #25292e;
+  color: #fff;
+  border-radius: 10px;
+  width: 200px;
+  
+}
+form .inp{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 10px 1px;
+}
+form .inp label{
+  font-size: 1.5rem;
+  font-style: oblique;
+  font-weight: 700;
+}
+form .inp input{
+  width: 250px;
+  padding: 10px;
 }
 
 .contact .contimg img{
@@ -843,6 +873,34 @@ form label{
     }
     .contact .contimg img {
       width: 50%;
+    }
+    form{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    form .inp{
+      flex-direction: column;
+      padding: 20px;
+      gap: 10px;
+      align-items: flex-start;
+    }
+        form .inp input{
+          width: 100%;
+        }
+}
+@media(max-width:600px){
+  .contact {
+      padding: 2rem;
+      flex-direction: column;
+    }
+}
+@media(max-width:400px){
+  .contact {
+      padding: 1.5rem;
+    }
+    .inp{
+      padding-left: 0px;
+      padding-right: 0px;
     }
 }
 
