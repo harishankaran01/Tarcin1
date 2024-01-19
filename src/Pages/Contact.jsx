@@ -3,8 +3,9 @@ import t from "../images/T.png";
 import"../index.css";
 
 export default function Contact() {
+  
   return (
-    <div className='contact'>
+    <div  className='contact'>
       <div className="contimg">
         <h2>CONTACT US</h2>
         <img src={t} alt='T image'/>

@@ -3,8 +3,9 @@ import student from "/src/images/student.png";
 import "/src/index.css"
 
 export default function Land() {
+  
   return (
-    <div className='Land'>
+    <div  className='Land'>
       <div className='landcontant'>
         <h2 data-aos="zoom-in">Our Professional Courses</h2>
         <h4 data-aos="fade-up"
