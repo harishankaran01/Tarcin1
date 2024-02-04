@@ -5,7 +5,7 @@ export default[
         time: 90, chapter:11,
         brief:"Modern Full stack Development from the beginning - all the way up to Full stack expert level!",
         overview: "A full-stack development course offers a comprehensive journey through the dynamic world of web development, equipping learners with the skills needed to create robust and interactive web applications. This immersive program covers both the front-end and back-end aspects of development, starting with the fundamentals of HTML, CSS, and JavaScript, and progressing to advanced topics like server-side programming, database management, and secure API design. Students gain hands-on experience with popular frameworks and tools, allowing them to build responsive user interfaces and powerful server-side applications.", 
-        imageUrl: "/assets/full-rLK151nL.jpg", 
+        imageUrl: "/assets/full-PXmdgLbK.jpg", 
         learn:["Front-End Development","Back-End Development","Version Control","Web Security","Testing and Debugging","DevOps","Front-End Build Tools","Performance Optimization","Full-Stack Frameworks","Soft Skills and Project Management"]
     },
     {
