@@ -4,7 +4,7 @@ import "../index.css"
 import "./Code.css"
 import { Link } from "react-router-dom";
 import Code1 from "../images/Code_Asthram_img.png";
-import head from "../images/Code_Asthram_head.png";
+import head from "../images/CODE_ASTHRAM_head.png";
 import Sprouted from "../images/Sprouted.png";
 import Sprouted1 from "../images/Sprouted_Blue_copy.png";
 
