@@ -16,7 +16,7 @@ export default function Offer() {
                 <img src={discussion} />
             </div>
             <div className='writingo' data-aos="zoom-in-up" >
-                <div className='offero'>
+                
                     <h1>OFFERS <span>Online <br />Courses</span></h1>
                     <ul>
                         <li>Fullstack</li>
@@ -27,8 +27,6 @@ export default function Offer() {
                         <li>Ethical Hacking</li>
 
                     </ul>
-                
-                </div>
 
             </div>
         </div>

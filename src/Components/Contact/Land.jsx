@@ -1,5 +1,6 @@
 import React from 'react';
-import student from "/src/images/student.png";
+// import student from "/src/images/student.png";
+import girlstudent from "/src/images/girl.png"
 import "/src/index.css"
 
 export default function Land() {
@@ -14,7 +15,7 @@ export default function Land() {
           <br />yielding shall you</h4>
       </div>
       <div className='landim'>
-        <img src={student} data-aos="zoom-in-left" />
+        <img src={girlstudent} data-aos="zoom-in-left" />
       </div>
     </div>
   )

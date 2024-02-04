@@ -11,14 +11,14 @@ export default function Courses() {
               <h1>
                   Professional
                   <span> Courses</span> </h1>
-              <p>
+              <p style={{textAlign:"justify"}}>
 Schoology has every tool your classroom needs and comes pre-integrated with more than 200+ tools, student information systems (SIS), and education platforms              
 </p>
               <Link to="courses"><button type='button' style={{ "marginTop": "3rem" }}>Explore Courses</button></Link>
               
           </div>
-          <div className='imagec' data-aos="fade-up"
-              data-aos-duration="3000">
+          <div className='imagec' data-aos="zoom-in-down"
+             >
               <img src={printi} />
           </div>
 

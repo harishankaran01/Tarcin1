@@ -7,6 +7,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Enroll from "./Components/Contact/Enroll";
 import ScrollonTop from './Components/ScrollonTop';
+import Hiring from './Components/Hiring';
 
 
 export default function App() {
@@ -15,13 +16,14 @@ export default function App() {
     <ScrollonTop/>
       <Routes>
         
-        <Route path="/" element={<Nav />}>
+        <Route path="/"  element={<Nav />} >
           <Route index element={<Home />} />
+          <Route path='hiring' element={<Hiring/>}/>
           <Route path='courses' element={<Courses />} />
             <Route path='courses/:name' element={<Enroll />} />
       
           <Route path='about' element={<About />} />
-          <Route path='contact-us' element={<Contact />} />
+          <Route path='contact-us'  element={<Contact />} />
           
         </Route>
       </Routes>
