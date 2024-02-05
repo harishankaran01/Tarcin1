@@ -20,7 +20,7 @@ export default function Getin() {
           <h6>Maduari-625020</h6>
         </div>
         <div className="gcont">
-          <div className='gbg'> <FaPhoneSquareAlt size={40} /></div>
+          <div className='gbg'> <FaPhoneSquareAlt size={40} color='#000' /></div>
           <h4>+91 98846 75586</h4>
         </div>
         <div className="gcont">

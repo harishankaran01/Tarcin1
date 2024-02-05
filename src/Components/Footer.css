@@ -22,6 +22,9 @@
     margin-top: 1rem;
 }
 
+.cont button:hover{
+cursor: pointer;
+}
 .cont button{
  padding: 8px;
  font-size: 1.2rem;

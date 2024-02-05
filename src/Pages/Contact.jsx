@@ -1,6 +1,6 @@
 import React from 'react';
 import emailjs from '@emailjs/browser';
-import t from "../images/T.png";
+import t from "../images/Logo_T.png"
 import"../index.css";
 
 export default function Contact() {
