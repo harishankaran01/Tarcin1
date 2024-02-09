@@ -19,7 +19,7 @@ export default function Footer() {
           <a href='https://www.instagram.com/tarcin_robotic.in?igsh=MW9mZGQydmUyeHQ1dA==' style={{ textDecoration: 'none' }}> <FaInstagram color='#E1306C' size={40} spacing={"12px"} style={{ margin: "5px auto", gap: '10px' }} /></a>
           <a href='https://www.linkedin.com/company/tarcin-robotic-llp/' style={{ textDecoration: 'none' }}> <FaLinkedin color='#3273af' size={40} spacing={"12px"} style={{ margin: "5px auto", gap: '10px' }} /></a>
           <a style={{ textDecoration: 'none' }}> <FaFacebook color='#3976ea' size={40} spacing={"12px"} style={{ margin: "5px auto", gap: '10px' }} /></a>
-          <a style={{ textDecoration: 'none' }}> <IoLogoYoutube color='#FF0000' size={40} spacing={"12px"} style={{ margin: "5px auto", gap: '10px' }} /></a><br />
+          <a href='https://www.youtube.com/@TarcinRobotic' style={{ textDecoration: 'none' }}> <IoLogoYoutube color='#FF0000' size={40} spacing={"12px"} style={{ margin: "5px auto", gap: '10px' }} /></a><br />
           <Link to="contact-us" ><button>Contact Us</button></Link>
         </div >
         <div className='cont cont2' >
