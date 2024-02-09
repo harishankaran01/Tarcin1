@@ -35,6 +35,10 @@
     color: #000;
     text-decoration: none;
 }
+.contact_btn  a{
+    cursor: pointer;
+    border-color: #fff;
+}
 .btns button:hover {
     cursor: pointer;
     border-color: #fff;
