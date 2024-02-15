@@ -1,6 +1,8 @@
 import React from 'react';
 import "./Intro.css"
-import tarcin from "../images/tarcinGif.gif"
+import tarcin from "../images/TarcinGif.gif"
+
+
 import { Link } from 'react-router-dom';
 export default function Intro() {
   return (

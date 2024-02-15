@@ -1,5 +1,5 @@
 .abt{
-    padding: 5rem 6rem ;
+    padding: 4rem 6rem ;
     background-color:#f5f9fd;
 }
 .abt h2,.abt h1{
@@ -12,9 +12,8 @@
 .about_images{
     padding-top: 1rem;
     display: flex;
-     flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: space-around;
-
 }
 .about_images img{
     width: 200px;
