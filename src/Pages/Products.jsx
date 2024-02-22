@@ -1,10 +1,23 @@
 import React from 'react';
 import "./Products.css"
 import Product from '../Components/Product/Product';
+import spyter from "/src/images/Spyder.png"
+import hand1 from "/src/images/hand1.png"
+import hand2 from "/src/images/hand2.png"
+import heman from "/src/images/head.png"
+import Pickplace from "/src/images/Pickplace.png"
+import robots from "/src/images/robots.png"
 
 export default function Products() {
   return (
+    
     <div className='productss'>
+      <img src={heman} width={"100px"}/>
+      <img src={hand1} width={"100px"}/>
+      <img src={hand2} width={"100px"}/>
+      <img src={spyter} width={"100px"}/>
+      <img src={Pickplace} width={"100px"}/>
+      <img src={robots} width={"100px"}/>
        <h1 className='heading' style={{margin:"1rem auto",color:"#002aff"}}>PRODUCTS</h1>
        <div className="pod">
       <Product head={`Nature-Inspired Agility: Tarcin's Quadruped Spyder`} content={`ASay hello to Tarcin Robotic LLP's Quadruped Spyder - a clever robot inspired by spiders. This cool robot moves super well, just like a spider, and it can go on all kinds of surfaces, it adapts to different situations, getting better at handling obstacles and tricky terrain. With smart legs, fancy sensors, and the ability to move by itself,the Quadruped Spyder is like a robotic superhero in the world of walking robots!`}  img={"/src/images/Spyder.png"} />
